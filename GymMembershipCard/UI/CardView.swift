@@ -12,6 +12,12 @@ struct CardView: View {
     var body: some View {
         Image("card")
             .scaleEffect(0.41)
+            .onAppear {
+                Bright.Max()
+            }
+            .onDisappear {
+                Bright.Restore()
+            }
     }
 }
 
