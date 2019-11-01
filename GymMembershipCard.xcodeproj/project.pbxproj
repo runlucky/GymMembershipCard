@@ -14,6 +14,7 @@
 		08266C91236976E9002C7DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08266C90236976E9002C7DE0 /* Assets.xcassets */; };
 		08266C94236976E9002C7DE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08266C93236976E9002C7DE0 /* Preview Assets.xcassets */; };
 		08266C97236976E9002C7DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08266C95236976E9002C7DE0 /* LaunchScreen.storyboard */; };
+		089905A0236C0B9100C816EE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0899059F236C0B9100C816EE /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		08266C93236976E9002C7DE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08266C96236976E9002C7DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08266C98236976E9002C7DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0899059F236C0B9100C816EE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,9 @@
 		08266C86236976E6002C7DE0 /* GymMembershipCard */ = {
 			isa = PBXGroup;
 			children = (
+				0899059E236C0B5B00C816EE /* UI */,
 				08266C87236976E6002C7DE0 /* AppDelegate.swift */,
 				08266C89236976E6002C7DE0 /* SceneDelegate.swift */,
-				08266C8E236976E6002C7DE0 /* ContentView.swift */,
 				08266C90236976E9002C7DE0 /* Assets.xcassets */,
 				08266C95236976E9002C7DE0 /* LaunchScreen.storyboard */,
 				08266C98236976E9002C7DE0 /* Info.plist */,
@@ -76,6 +78,15 @@
 				08266C93236976E9002C7DE0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0899059E236C0B5B00C816EE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				08266C8E236976E6002C7DE0 /* ContentView.swift */,
+				0899059F236C0B9100C816EE /* CardView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				08266C88236976E6002C7DE0 /* AppDelegate.swift in Sources */,
 				08266C8F236976E6002C7DE0 /* ContentView.swift in Sources */,
 				08266C8A236976E6002C7DE0 /* SceneDelegate.swift in Sources */,
+				089905A0236C0B9100C816EE /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

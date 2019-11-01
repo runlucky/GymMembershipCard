@@ -13,12 +13,8 @@ struct ContentView: View {
  
     var body: some View {
         TabView(selection: $selection){
-            VStack {
-                Text("First View")
-                    .font(.title)
-
-                Text("First View2")
-            }.tabItem {
+            CardView()
+                .tabItem {
                 VStack {
                     Image(systemName: "person.crop.rectangle.fill")
                     Text("Card")
