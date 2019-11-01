@@ -15,6 +15,8 @@
 		08266C94236976E9002C7DE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08266C93236976E9002C7DE0 /* Preview Assets.xcassets */; };
 		08266C97236976E9002C7DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08266C95236976E9002C7DE0 /* LaunchScreen.storyboard */; };
 		089905A0236C0B9100C816EE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0899059F236C0B9100C816EE /* CardView.swift */; };
+		089905A2236C103500C816EE /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A1236C103500C816EE /* Workout.swift */; };
+		089905A4236C142900C816EE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A3236C142900C816EE /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		08266C96236976E9002C7DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08266C98236976E9002C7DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0899059F236C0B9100C816EE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		089905A1236C103500C816EE /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		089905A3236C142900C816EE /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			children = (
 				08266C8E236976E6002C7DE0 /* ContentView.swift */,
 				0899059F236C0B9100C816EE /* CardView.swift */,
+				089905A1236C103500C816EE /* Workout.swift */,
+				089905A3236C142900C816EE /* Menu.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -162,9 +168,11 @@
 			files = (
 				08266C8D236976E6002C7DE0 /* GymMembershipCard.xcdatamodeld in Sources */,
 				08266C88236976E6002C7DE0 /* AppDelegate.swift in Sources */,
+				089905A4236C142900C816EE /* Menu.swift in Sources */,
 				08266C8F236976E6002C7DE0 /* ContentView.swift in Sources */,
 				08266C8A236976E6002C7DE0 /* SceneDelegate.swift in Sources */,
 				089905A0236C0B9100C816EE /* CardView.swift in Sources */,
+				089905A2236C103500C816EE /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

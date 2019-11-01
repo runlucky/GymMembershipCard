@@ -15,15 +15,14 @@ struct ContentView: View {
         TabView(selection: $selection){
             CardView()
                 .tabItem {
-                VStack {
-                    Image(systemName: "person.crop.rectangle.fill")
-                    Text("Card")
+                    VStack {
+                        Image(systemName: "person.crop.rectangle.fill")
+                        Text("Card")
+                    }
                 }
-            }
-            .tag(0)
+                .tag(0)
 
-            Text("Second View")
-                .font(.title)
+            MenuView()
                 .tabItem {
                     VStack {
                         Image(systemName: "list.dash")
