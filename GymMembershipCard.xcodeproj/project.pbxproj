@@ -15,9 +15,10 @@
 		08266C94236976E9002C7DE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08266C93236976E9002C7DE0 /* Preview Assets.xcassets */; };
 		08266C97236976E9002C7DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08266C95236976E9002C7DE0 /* LaunchScreen.storyboard */; };
 		089905A0236C0B9100C816EE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0899059F236C0B9100C816EE /* CardView.swift */; };
-		089905A2236C103500C816EE /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A1236C103500C816EE /* Workout.swift */; };
-		089905A4236C142900C816EE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A3236C142900C816EE /* Menu.swift */; };
+		089905A2236C103500C816EE /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A1236C103500C816EE /* WorkoutView.swift */; };
+		089905A4236C142900C816EE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A3236C142900C816EE /* MenuView.swift */; };
 		089905A6236C159A00C816EE /* Bright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A5236C159A00C816EE /* Bright.swift */; };
+		089905A9236C1F2700C816EE /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A8236C1F2700C816EE /* Workout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +32,10 @@
 		08266C96236976E9002C7DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08266C98236976E9002C7DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0899059F236C0B9100C816EE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		089905A1236C103500C816EE /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
-		089905A3236C142900C816EE /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		089905A1236C103500C816EE /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		089905A3236C142900C816EE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		089905A5236C159A00C816EE /* Bright.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bright.swift; sourceTree = "<group>"; };
+		089905A8236C1F2700C816EE /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		08266C86236976E6002C7DE0 /* GymMembershipCard */ = {
 			isa = PBXGroup;
 			children = (
+				089905A7236C1F1500C816EE /* Model */,
 				0899059E236C0B5B00C816EE /* UI */,
 				08266C87236976E6002C7DE0 /* AppDelegate.swift */,
 				089905A5236C159A00C816EE /* Bright.swift */,
@@ -92,10 +95,18 @@
 			children = (
 				08266C8E236976E6002C7DE0 /* ContentView.swift */,
 				0899059F236C0B9100C816EE /* CardView.swift */,
-				089905A1236C103500C816EE /* Workout.swift */,
-				089905A3236C142900C816EE /* Menu.swift */,
+				089905A3236C142900C816EE /* MenuView.swift */,
+				089905A1236C103500C816EE /* WorkoutView.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		089905A7236C1F1500C816EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				089905A8236C1F2700C816EE /* Workout.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,11 +182,12 @@
 			files = (
 				08266C8D236976E6002C7DE0 /* GymMembershipCard.xcdatamodeld in Sources */,
 				08266C88236976E6002C7DE0 /* AppDelegate.swift in Sources */,
-				089905A4236C142900C816EE /* Menu.swift in Sources */,
+				089905A4236C142900C816EE /* MenuView.swift in Sources */,
 				08266C8F236976E6002C7DE0 /* ContentView.swift in Sources */,
 				08266C8A236976E6002C7DE0 /* SceneDelegate.swift in Sources */,
+				089905A9236C1F2700C816EE /* Workout.swift in Sources */,
 				089905A0236C0B9100C816EE /* CardView.swift in Sources */,
-				089905A2236C103500C816EE /* Workout.swift in Sources */,
+				089905A2236C103500C816EE /* WorkoutView.swift in Sources */,
 				089905A6236C159A00C816EE /* Bright.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
