@@ -19,8 +19,10 @@ struct WorkoutView: View {
         NavigationLink(destination: WorkoutEditView(workout)) {
             HStack {
                 Text(workout.name)
-                Text(workout.kg.description + " kg")
+                Spacer()
                 Text(workout.option)
+                Text(workout.kg.description + " kg")
+                    .frame(width: 55, alignment: .trailing)
             }
         }
     }
