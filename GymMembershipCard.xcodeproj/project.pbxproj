@@ -21,6 +21,8 @@
 		089905A9236C1F2700C816EE /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A8236C1F2700C816EE /* Workout.swift */; };
 		08B7A66E23712E5F00D9D8A0 /* WorkoutEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A66D23712E5F00D9D8A0 /* WorkoutEditView.swift */; };
 		08B7A69523715F1F00D9D8A0 /* InfomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A69423715F1F00D9D8A0 /* InfomationView.swift */; };
+		08B7A69723716B6900D9D8A0 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A69623716B6900D9D8A0 /* DateExtensions.swift */; };
+		08B7A69923716B7700D9D8A0 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A69823716B7700D9D8A0 /* BundleExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		089905A8236C1F2700C816EE /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		08B7A66D23712E5F00D9D8A0 /* WorkoutEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEditView.swift; sourceTree = "<group>"; };
 		08B7A69423715F1F00D9D8A0 /* InfomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationView.swift; sourceTree = "<group>"; };
+		08B7A69623716B6900D9D8A0 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		08B7A69823716B7700D9D8A0 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				08266C98236976E9002C7DE0 /* Info.plist */,
 				08266C8B236976E6002C7DE0 /* GymMembershipCard.xcdatamodeld */,
 				08266C92236976E9002C7DE0 /* Preview Content */,
+				08B7A69623716B6900D9D8A0 /* DateExtensions.swift */,
+				08B7A69823716B7700D9D8A0 /* BundleExtensions.swift */,
 			);
 			path = GymMembershipCard;
 			sourceTree = "<group>";
@@ -191,6 +197,8 @@
 				089905A4236C142900C816EE /* MenuView.swift in Sources */,
 				08266C8F236976E6002C7DE0 /* ContentView.swift in Sources */,
 				08B7A66E23712E5F00D9D8A0 /* WorkoutEditView.swift in Sources */,
+				08B7A69923716B7700D9D8A0 /* BundleExtensions.swift in Sources */,
+				08B7A69723716B6900D9D8A0 /* DateExtensions.swift in Sources */,
 				08266C8A236976E6002C7DE0 /* SceneDelegate.swift in Sources */,
 				089905A9236C1F2700C816EE /* Workout.swift in Sources */,
 				089905A0236C0B9100C816EE /* CardView.swift in Sources */,

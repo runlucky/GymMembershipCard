@@ -22,6 +22,7 @@ struct InfomationView: View {
                 Text("祝日　　10:00 - 18:00")
                     .padding(.top, 20.0)
                     .padding(.bottom, 5.0)
+                Text("有効期限　\(Bundle.main.ExpirationDate?.toString(.shortDate) ?? "不明")")
             }
             .navigationBarTitle("Infomation")
         }
