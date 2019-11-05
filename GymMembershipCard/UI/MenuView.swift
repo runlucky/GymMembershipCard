@@ -13,10 +13,10 @@ struct MenuView: View {
         NavigationView {
             List {
                 WorkoutView(Workout("ロータリートールソー", kg: 72))
-                WorkoutView(Workout("アブドミナルクランチ", kg: 18, option: "4"))
-                WorkoutView(Workout("ラットプルダウン", kg: 45, option: "3"))
-                WorkoutView(Workout("レッグプレス", kg: 135, option: "3"))
-                WorkoutView(Workout("チェストプレス", kg: 32, option: "3 3"))
+                WorkoutView(Workout("アブドミナルクランチ", kg: 18, option: "椅子2"))
+                WorkoutView(Workout("ラットプルダウン", kg: 45, option: "椅子3"))
+                WorkoutView(Workout("レッグプレス", kg: 108, option: "椅子2"))
+                WorkoutView(Workout("チェストプレス", kg: 32, option: "背中4 椅子3"))
 
             }
             .navigationBarTitle("Workout Menu")
