@@ -18,7 +18,8 @@ struct MenuView: View {
                 WorkoutView(Workout("レッグプレス", kg: 135, option: "3"))
                 WorkoutView(Workout("チェストプレス", kg: 32, option: "3 3"))
 
-            }.navigationBarTitle("Workout Menu")
+            }
+            .navigationBarTitle("Workout Menu")
         }
     }
 }

@@ -16,7 +16,7 @@ struct WorkoutView: View {
     }
 
     var body: some View {
-        NavigationLink(destination: Text("nav!")) {
+        NavigationLink(destination: WorkoutEditView(workout)) {
             HStack {
                 Text(workout.name)
                 Text(workout.kg.description + " kg")
