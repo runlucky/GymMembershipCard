@@ -20,6 +20,7 @@
 		089905A6236C159A00C816EE /* Bright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A5236C159A00C816EE /* Bright.swift */; };
 		089905A9236C1F2700C816EE /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A8236C1F2700C816EE /* Workout.swift */; };
 		08B7A66E23712E5F00D9D8A0 /* WorkoutEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A66D23712E5F00D9D8A0 /* WorkoutEditView.swift */; };
+		08B7A69523715F1F00D9D8A0 /* InfomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A69423715F1F00D9D8A0 /* InfomationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		089905A5236C159A00C816EE /* Bright.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bright.swift; sourceTree = "<group>"; };
 		089905A8236C1F2700C816EE /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		08B7A66D23712E5F00D9D8A0 /* WorkoutEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEditView.swift; sourceTree = "<group>"; };
+		08B7A69423715F1F00D9D8A0 /* InfomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				089905A3236C142900C816EE /* MenuView.swift */,
 				089905A1236C103500C816EE /* WorkoutView.swift */,
 				08B7A66D23712E5F00D9D8A0 /* WorkoutEditView.swift */,
+				08B7A69423715F1F00D9D8A0 /* InfomationView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				08266C8A236976E6002C7DE0 /* SceneDelegate.swift in Sources */,
 				089905A9236C1F2700C816EE /* Workout.swift in Sources */,
 				089905A0236C0B9100C816EE /* CardView.swift in Sources */,
+				08B7A69523715F1F00D9D8A0 /* InfomationView.swift in Sources */,
 				089905A2236C103500C816EE /* WorkoutView.swift in Sources */,
 				089905A6236C159A00C816EE /* Bright.swift in Sources */,
 			);

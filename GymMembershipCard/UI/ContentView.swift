@@ -30,6 +30,15 @@ struct ContentView: View {
                     }
                 }
                 .tag(1)
+
+            InfomationView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "info.circle")
+                        Text("Infomation")
+                    }
+                }
+                .tag(2)
         }
     }
 }
