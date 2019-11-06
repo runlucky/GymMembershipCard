@@ -11,20 +11,45 @@ import SwiftUI
 struct InfomationView: View {
     var body: some View {
         NavigationView {
-            List {
-                Text("月曜日　10:00 - 21:00")
-                Text("火曜日　10:00 - 21:00")
-                Text("水曜日　10:00 - 21:00")
-                Text("木曜日　休館日")
-                Text("金曜日　10:00 - 21:00")
-                Text("土曜日　10:00 - 21:00")
-                Text("日曜日　10:00 - 18:00")
-                Text("祝日　　10:00 - 18:00")
-                    .padding(.top, 20.0)
-                    .padding(.bottom, 5.0)
-                Text("有効期限　\(Bundle.main.ExpirationDate?.toString(.shortDate) ?? "不明")")
+            Form {
+                Section(header: Text("営業時間")) {
+                    RowView("月曜日", "10:00 - 21:00")
+                    RowView("火曜日", "10:00 - 21:00")
+                    RowView("水曜日", "10:00 - 21:00")
+                    RowView("木曜日", "休館日")
+                    RowView("金曜日", "10:00 - 21:00")
+                    RowView("土曜日", "10:00 - 21:00")
+                    RowView("日曜日", "10:00 - 18:00")
+                }
+                Section {
+                    RowView("祝日", "10:00 - 18:00")
+                }
+
+                Section(header: Text("その他")) {
+                    RowView("有効期限", Bundle.main.ExpirationDate?.toString(.shortDate) ?? "不明")
+                    RowView("バージョン", Bundle.main.version ?? "不明")
+                }
             }
             .navigationBarTitle("Infomation")
+        }
+    }
+}
+
+struct RowView: View {
+    private let key: String
+    private let value: String
+
+    init(_ key: String, _ value: String) {
+        self.key = key
+        self.value = value
+    }
+
+    var body: some View {
+        HStack {
+            Text(key)
+            Spacer()
+            Text(value)
+                .foregroundColor(.secondary)
         }
     }
 }

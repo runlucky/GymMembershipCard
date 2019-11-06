@@ -17,6 +17,10 @@ extension Bundle {
         return expiration
     }
 
+    public var version: String? {
+        self.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
+    }
+
     private var plist: [String: Any]? {
         // embedded.mobileprovision ファイルを取得する
         guard let url = self.url(forResource: "embedded", withExtension: "mobileprovision") else {
