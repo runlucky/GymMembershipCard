@@ -11,7 +11,7 @@ import SwiftUI
 struct MenuView: View {
     var body: some View {
         NavigationView {
-            List {
+            Form {
                 WorkoutView(Workout("ロータリートールソー", kg: 72))
                 WorkoutView(Workout("アブドミナルクランチ", kg: 18, option: "椅子2"))
                 WorkoutView(Workout("ラットプルダウン", kg: 45, option: "椅子3"))

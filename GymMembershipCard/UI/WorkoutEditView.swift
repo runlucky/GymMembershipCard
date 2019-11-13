@@ -26,27 +26,22 @@ struct WorkoutEditView: View {
     }
 
     var body: some View {
-        NavigationView {
-            List {
-                Text("Weight")
-                Stepper(value: $option, in: 1...10, label: {
-                    Text("\(option) kg")
-                })
+            Form {
+                NavigationLink(destination: WorkoutEditView(workout)) {
+                    RowView("Weight", workout.kg.description + " kg")
+                }
 
-                ForEach(1...3, id: \.self) { index in
-                    VStack {
-                        Text("")
-
-                        Text("Option " + index.description)
-                        Toggle(isOn: self.$enable) { Text("有効") }
-                        Stepper(value: self.$option, in: 1...10, label: {
-                            Text("\(self.option)")
-                        })
+                Section (header: Text("設定")) {
+                    NavigationLink(destination: Form {
+                        Text("asdf")
+                    }) {
+                        RowView("椅子", workout.kg.description + " kg")
                     }
+                    RowView("背中", workout.kg.description + " kg")
+                    RowView("", "無効")
                 }
             }
             .navigationBarTitle(workout.name)
-        }
     }
 
 
