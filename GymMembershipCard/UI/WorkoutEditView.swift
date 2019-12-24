@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct WorkoutEditView: View {
-    private let workout: Workout
+    private let model: Workout
 
     @State var weight: Float = 50.0
     @State var option: Int = 1
@@ -21,27 +21,27 @@ struct WorkoutEditView: View {
         //        weight = Float(workout.kg)
         //        option = Int(workout.option)!
 
-        self.workout = workout
+        self.model = workout
 
     }
 
     var body: some View {
-            Form {
-                NavigationLink(destination: WorkoutEditView(workout)) {
-                    RowView("Weight", workout.kg.description + " kg")
-                }
-
-                Section (header: Text("設定")) {
-                    NavigationLink(destination: Form {
-                        Text("asdf")
-                    }) {
-                        RowView("椅子", workout.kg.description + " kg")
-                    }
-                    RowView("背中", workout.kg.description + " kg")
-                    RowView("", "無効")
-                }
+        Form {
+            NavigationLink(destination: WorkoutEditView(model)) {
+                RowView("Weight", model.kg.description + " kg")
             }
-            .navigationBarTitle(workout.name)
+
+            Section (header: Text("設定")) {
+                NavigationLink(destination: Form {
+                    Text("asdf")
+                }) {
+                    RowView("椅子", model.kg.description + " kg")
+                }
+                RowView("背中", model.kg.description + " kg")
+                RowView("", "無効")
+            }
+        }
+        .navigationBarTitle(model.name)
     }
 
 
