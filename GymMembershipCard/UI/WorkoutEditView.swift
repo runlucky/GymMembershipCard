@@ -41,7 +41,7 @@ struct WorkoutEditView: View {
                 RowView("", "無効")
             }
         }
-        .navigationBarTitle(model.name)
+        .navigationBarTitle(Text(model.name), displayMode: .inline)
     }
 
 
