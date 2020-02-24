@@ -22,7 +22,8 @@ struct ContentView: View {
                 }
                 .tag(0)
 
-            MenuView()
+            WorkoutListView()
+                .environmentObject(AppState.shared)
                 .tabItem {
                     VStack {
                         Image(systemName: "list.dash")

@@ -16,13 +16,15 @@
 		08266C97236976E9002C7DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08266C95236976E9002C7DE0 /* LaunchScreen.storyboard */; };
 		089905A0236C0B9100C816EE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0899059F236C0B9100C816EE /* CardView.swift */; };
 		089905A2236C103500C816EE /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A1236C103500C816EE /* WorkoutView.swift */; };
-		089905A4236C142900C816EE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A3236C142900C816EE /* MenuView.swift */; };
+		089905A4236C142900C816EE /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A3236C142900C816EE /* WorkoutListView.swift */; };
 		089905A6236C159A00C816EE /* Bright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A5236C159A00C816EE /* Bright.swift */; };
 		089905A9236C1F2700C816EE /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089905A8236C1F2700C816EE /* Workout.swift */; };
-		08B7A66E23712E5F00D9D8A0 /* WorkoutEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A66D23712E5F00D9D8A0 /* WorkoutEditView.swift */; };
+		08B7A66E23712E5F00D9D8A0 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A66D23712E5F00D9D8A0 /* WorkoutDetailView.swift */; };
 		08B7A69523715F1F00D9D8A0 /* InfomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A69423715F1F00D9D8A0 /* InfomationView.swift */; };
 		08B7A69723716B6900D9D8A0 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A69623716B6900D9D8A0 /* DateExtensions.swift */; };
 		08B7A69923716B7700D9D8A0 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B7A69823716B7700D9D8A0 /* BundleExtensions.swift */; };
+		193E55F824021EEC00096BFE /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E55F724021EEC00096BFE /* UserSettings.swift */; };
+		193E55FA240250BE00096BFE /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E55F9240250BE00096BFE /* DataExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,13 +39,15 @@
 		08266C98236976E9002C7DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0899059F236C0B9100C816EE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		089905A1236C103500C816EE /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
-		089905A3236C142900C816EE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		089905A3236C142900C816EE /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
 		089905A5236C159A00C816EE /* Bright.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bright.swift; sourceTree = "<group>"; };
 		089905A8236C1F2700C816EE /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
-		08B7A66D23712E5F00D9D8A0 /* WorkoutEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEditView.swift; sourceTree = "<group>"; };
+		08B7A66D23712E5F00D9D8A0 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
 		08B7A69423715F1F00D9D8A0 /* InfomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationView.swift; sourceTree = "<group>"; };
 		08B7A69623716B6900D9D8A0 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		08B7A69823716B7700D9D8A0 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		193E55F724021EEC00096BFE /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		193E55F9240250BE00096BFE /* DataExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,17 +81,16 @@
 			isa = PBXGroup;
 			children = (
 				089905A7236C1F1500C816EE /* Model */,
-				0899059E236C0B5B00C816EE /* UI */,
+				0899059E236C0B5B00C816EE /* Views */,
+				193E55F524021EBD00096BFE /* Extensions */,
+				193E55F624021EDD00096BFE /* Enviroments */,
+				08266C90236976E9002C7DE0 /* Assets.xcassets */,
+				08266C98236976E9002C7DE0 /* Info.plist */,
 				08266C87236976E6002C7DE0 /* AppDelegate.swift */,
 				089905A5236C159A00C816EE /* Bright.swift */,
 				08266C89236976E6002C7DE0 /* SceneDelegate.swift */,
-				08266C90236976E9002C7DE0 /* Assets.xcassets */,
-				08266C95236976E9002C7DE0 /* LaunchScreen.storyboard */,
-				08266C98236976E9002C7DE0 /* Info.plist */,
 				08266C8B236976E6002C7DE0 /* GymMembershipCard.xcdatamodeld */,
 				08266C92236976E9002C7DE0 /* Preview Content */,
-				08B7A69623716B6900D9D8A0 /* DateExtensions.swift */,
-				08B7A69823716B7700D9D8A0 /* BundleExtensions.swift */,
 			);
 			path = GymMembershipCard;
 			sourceTree = "<group>";
@@ -100,17 +103,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0899059E236C0B5B00C816EE /* UI */ = {
+		0899059E236C0B5B00C816EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				08266C95236976E9002C7DE0 /* LaunchScreen.storyboard */,
 				08266C8E236976E6002C7DE0 /* ContentView.swift */,
 				0899059F236C0B9100C816EE /* CardView.swift */,
-				089905A3236C142900C816EE /* MenuView.swift */,
 				089905A1236C103500C816EE /* WorkoutView.swift */,
-				08B7A66D23712E5F00D9D8A0 /* WorkoutEditView.swift */,
+				089905A3236C142900C816EE /* WorkoutListView.swift */,
+				08B7A66D23712E5F00D9D8A0 /* WorkoutDetailView.swift */,
 				08B7A69423715F1F00D9D8A0 /* InfomationView.swift */,
 			);
-			path = UI;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		089905A7236C1F1500C816EE /* Model */ = {
@@ -119,6 +123,24 @@
 				089905A8236C1F2700C816EE /* Workout.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		193E55F524021EBD00096BFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				08B7A69623716B6900D9D8A0 /* DateExtensions.swift */,
+				08B7A69823716B7700D9D8A0 /* BundleExtensions.swift */,
+				193E55F9240250BE00096BFE /* DataExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		193E55F624021EDD00096BFE /* Enviroments */ = {
+			isa = PBXGroup;
+			children = (
+				193E55F724021EEC00096BFE /* UserSettings.swift */,
+			);
+			path = Enviroments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,15 +216,17 @@
 			files = (
 				08266C8D236976E6002C7DE0 /* GymMembershipCard.xcdatamodeld in Sources */,
 				08266C88236976E6002C7DE0 /* AppDelegate.swift in Sources */,
-				089905A4236C142900C816EE /* MenuView.swift in Sources */,
+				089905A4236C142900C816EE /* WorkoutListView.swift in Sources */,
 				08266C8F236976E6002C7DE0 /* ContentView.swift in Sources */,
-				08B7A66E23712E5F00D9D8A0 /* WorkoutEditView.swift in Sources */,
+				08B7A66E23712E5F00D9D8A0 /* WorkoutDetailView.swift in Sources */,
 				08B7A69923716B7700D9D8A0 /* BundleExtensions.swift in Sources */,
 				08B7A69723716B6900D9D8A0 /* DateExtensions.swift in Sources */,
 				08266C8A236976E6002C7DE0 /* SceneDelegate.swift in Sources */,
+				193E55FA240250BE00096BFE /* DataExtensions.swift in Sources */,
 				089905A9236C1F2700C816EE /* Workout.swift in Sources */,
 				089905A0236C0B9100C816EE /* CardView.swift in Sources */,
 				08B7A69523715F1F00D9D8A0 /* InfomationView.swift in Sources */,
+				193E55F824021EEC00096BFE /* UserSettings.swift in Sources */,
 				089905A2236C103500C816EE /* WorkoutView.swift in Sources */,
 				089905A6236C159A00C816EE /* Bright.swift in Sources */,
 			);

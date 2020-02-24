@@ -16,7 +16,7 @@ struct WorkoutView: View {
     }
 
     var body: some View {
-        NavigationLink(destination: WorkoutEditView(workout)) {
+        NavigationLink(destination: WorkoutDetailView(workout)) {
             HStack {
                 Text(workout.name)
                 Spacer()
@@ -30,6 +30,6 @@ struct WorkoutView: View {
 
 struct WorkoutView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuView()
+        WorkoutListView()
     }
 }
